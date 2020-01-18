@@ -29,11 +29,11 @@ class MovieListState extends State<MovieList> {
     getData();
 
     return new Scaffold(
-      backgroundColor: Colors.white,
+      backgroundColor: Colors.blueGrey,
       appBar: new AppBar(
         elevation: 0.3,
         centerTitle: true,
-        backgroundColor: Colors.white,
+        backgroundColor: Colors.blueGrey,
         leading: new Icon(
           Icons.arrow_back,
           color: mainColor,
